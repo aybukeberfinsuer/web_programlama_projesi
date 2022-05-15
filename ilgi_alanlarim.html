@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlgi Alanlarım</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div id="main-nav" class="container">
+            <a href="https://www.sakarya.edu.tr/"  class="main-header__logo">SAÜ</a>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="hakkimda.html" >Giriş</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="cv.html" >CV</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="sehrim.html">Şehrim</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="mirasimiz.html"  >Mirasımız</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="ilgi_alanlarim.html" >İlgi Alanlarım</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--login">
+                        <a class="btn btn-secondary" href="iletisim.html" >İLETİŞİM</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" onclick="displayMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="how-it-works">
+            <div class="container">
+                <div class="row">
+
+                    <h2 class="section-title">İlgi Alanlarım Nelerdir ?</h2>
+                    <p>Hakkımda sayfamda belirttiğim gibi öncelikli ilgi alanım spor olmakla beraber birçok hobim
+                        bulunmakta ama bu sayfada artık spordan bahsetmeyeceğim. Diğer ilgi alanlarım olan müzik, kitap
+                        ve dergilerimden bahsetmek istiyorum. Müzik olarak en sevdiğim tür klasik müziktir ardından
+                        nostaljik eski şarkılar ve rock müzik gelmektedir. Karışık bir müzik zevkim var aşağıdaki klasik
+                        müziklerimin olduğu bir playlist var ordan da bakabilirsiniz. </p>
+                    <p>Şimdi ise kitap bölümüne geçmek istiyorum. Kurgusal kitaplar çok okumaktan zevk almam daha
+                        pragmatik kitapları ve tarihi kitaplar okumayı severim. En çok da tarih. Tarihle birlikte
+                        aslında bir yandan felsefe de okumak gerekti. <a class="ozel"
+                            href="https://allabouthistory.com.tr/"><span style="color:red;">All
+                                About History</span></a> isimli dergi favori dergimdir. Bunların yanında dinler tarihini
+                        ve
+                        felsefesi hakkında okuma araştırma yapmayı çok severim. </p>
+
+                    <div id="slider">
+                        <p id="photo-description" style="font-size: 3rem; background-color: cadetblue;"> Okumayı
+                            Sevdiğim Kitaplara Ait Fotoğraflar </p>
+                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                            <div class="col-xl-8 col-lg-7">
+                                <div class="slayt"> <img class="allabouthistory" src="all_about_history.jpg"
+                                        alt="allabouthistory"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                            <div class="col-xl-8 col-lg-7">
+                                <div class="slayt"> <img class="img" src="toplum_sözleşmesi.jpg"
+                                        alt="toplum_sözleşmesi"></div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                            <div class="col-xl-8 col-lg-7">
+                                <div class="slayt"> <img class="img" src="yakın_tarihin_gerçekleri.jpg"
+                                        alt="yakın_tarihin_gerçekleri"></div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                            <div class="col-xl-8 col-lg-7">
+                                <div class="slayt"> <img class="img" src="platon_devlet.jpg" alt="platon_devlet"></div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                            <div class="col-xl-8 col-lg-7">
+                                <div class="slayt"> <img class="img" src="dinin_kısa_tarihi.jpg" alt="din"></div>
+                            </div>
+                        </div>
+
+                        <div id="kontrol">
+                            <a href="javascript:oncekiSlayt()"><svg xmlns="http://www.w3.org/2000/svg" width="50"
+                                    height="50" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                                </svg></a>
+                            <a href="javascript:sonrakiSlayt()"><svg xmlns="http://www.w3.org/2000/svg" width="50"
+                                    height="50" fill="currentColor" class="bi bi-arrow-right-circle"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                                </svg></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="movies">
+            <h2 class="section-title">Favori Sanatçılarım </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="card">
+                            <a href="https://fabriziopaterlini.com/" target="_blank">
+                                <img src="../odev_dokumanı/paterlini.jpg" alt="Fabrizio Paterlini">
+                            </a>
+                            <div class="card-body">
+                                <h2>Fabrizio Paterlini</h2>
+                                <p>Piyano çalmaya 6 yaşındayken başlamış olan italyan müzisyen gençlik yılları boyunca
+                                    çeşitli gruplarla müzik yaptıktan sonra, klasik müzik ve piyano üzerine
+                                    yoğunlaşarak; 2007 yılında viaggi in aeromobile isimli ilk albümünü çıkartmıştır.
+                                    Kendisi benim en sevdiğim sanatçılardan biridir ve <b>Wind Song</b> ise en sevdiğim
+                                    bestesidir.
+                                </p>
+                                <p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="card">
+                            <a href="https://ludovicoeinaudi.com/">
+                                <img src="../odev_dokumanı/einaudi.jpg" alt="Ludovico Einaudi">
+                            </a>
+                            <div class="card-body">
+                                <h2>Ludovico Einaudi</h2>
+                                <p>Ludovico Maria Enrico Einaudi , İtalyan piyanist
+                                    ve besteci. Eğitimini Verdi Konservatuvarı'nda tamamlayan Einaudi, kariyerine klasik
+                                    müzik bestecisi olarak başladıktan sonra pop, rock, folk ve dünya müziği gibi farklı
+                                    tarzlarda da eserler de verdi.
+                                    Sanatçının bestelediği çok sayıda film ve dizi müziği vardır. 2020 yılında
+                                    müziği Nomadland ve The Father filmlerinde kullanıldı. </p>
+                                <div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+        </section>
+        <section class="movies">
+            <h2 class="section-title"></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="card">
+                            <a href="https://www.tarkan.com/"> <img class="img-fluid"
+                                    src="../odev_dokumanı/tarkan_ss.png" alt=""></a>
+                            <div class="card-body">
+                                <h2>Tarkan</h2>
+                                <p>Tarkan Tevetoğlu (d. 17 Ekim 1972), Türk şarkıcı-şarkı yazarıdır. 1990'ların başından
+                                    itibaren Türk pop müziğinde yakaladığı devamlı liste ve satış başarılarıyla hem
+                                    Türkiye'de hem de Avrupa'da tanındı. 1986'da ailesiyle beraber Türkiye'ye geldi ve
+                                    müziğe çocukluk yıllarında
+                                    başlayan ilgisi sonucunda, lise hayatına başladığı Karamürsel'de ilk müzik eğitimini
+                                    almaya başladı. İlerleyen yıllarda İstanbul Plak şirketinin sahibi Mehmet Söğütoğlu
+                                    ile tanışarak şirket ile bir albüm anlaşması imzaladı.</p>
+                                <p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="card">
+                            <a href="https://tr.wikipedia.org/wiki/HIM"> <img class="img-fluid" src="him2.jpg" alt="">
+                            </a>
+
+                            <div class="card-body">
+                                <h2>HIM</h2>
+                                <p> HIM, Finlandiya'nın Helsinki şehrinde kurulmuş gothic rock grubu. 1991 yılında
+                                    vokalist Ville Valo ile basçı Mikko "Mige" Paananen tarafından His Infernal Majesty
+                                    adıyla kurulduktan sonra 1993'te dağıldı, 1995'te Valo ve gitarist Mikko "Linde"
+                                    Lindström tarafından yeniden kuruldu. Mige'ın da yeniden dahil olduğu gruba klavyeci
+                                    Antto Melasniemi ve davulcu Juhana "Pätkä" katıldı. Bu kadroyla HIM adını alan grup,
+                                    1997'de ilk albümünü çıkardı. Grup, 2017 yılında bir veda turnesinin ardından
+                                    dağıldı. </p>
+                                <div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+        </section>
+        <h2 class="section-title">Klasik Müzik İçin Yaptığım Bir Spotify Playlsit'im</h2>
+
+        <div class="container"><iframe style="border-radius:12px "
+                src="https://open.spotify.com/embed/playlist/4FoGMI1cXnGAWSgcE3mC7T?utm_source=generator&theme=0"
+                width="100%" height="380" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+
+        <br>
+        <section id="how-it-works">
+            <div class="container">
+                <div class="row">
+                    <a href="https://tr.wikipedia.org/wiki/Pok%C3%A9mon_(anime)">
+                        <img style="width: 80%;" src="../odev_dokumanı/pokemon.png" alt="PokeMon"></a>
+                    <p>Pokémon (Japonca: ポケモン, romanize: Pokemon) veya tam adıyla Pocket Monsters (ポケットモンスター Poketto
+                        Monsutā, "Cep Canavarları"), OLM, Inc. tarafından hazırlanan bir anime televizyon serisidir.
+                        Seri, Nisan 1997 tarihinden bu yana yayınlanmakta olup Pokémon medya imtiyazının parçasıdır.
+
+                        Anime serisi, her biri Pokémon video oyunu serisinin ana taksitine dayanan yedi ardışık seriden
+                        oluşmaktadır. Uluslararası yayınlarda, seri 24 sezonuna bölünmüştür. Serilerin her biri, Pokémon
+                        adlı kurgusal yaratıkların genç bir eğitmeni olan Ash Ketchum'u takip etmektedir. Ortağı Pokémon
+                        Pikachu ve şu anda Goh ile birlikte Ash, Pokémon dünyasının çeşitli bölgelerini dolaşarak ve
+                        Pokémon Ligi olarak bilinen çeşitli Pokémon dövüş turnuvalarında yarışarak bir "Pokémon Ustası"
+                        olmak için bir yolculuğa çıkmasını anlatmaktadır.
+                        Anime serisine bir dizi yan hikaye olan Pokémon Chronicles ile canlı aksiyon çeşitliliği ve
+                        Pokémon ile ilgili haber programları olan Pocket Monsters Encore, Weekly Pokémon Broadcasting
+                        Station, Pokémon☆Sunday, Pokémon Smash!, Pokémon Get☆TV ve Meet Up at the Pokémon House? gibi
+                        yan serileri de bulunmaktadır.
+
+                        Pokémon anime serisi, animenin dünya çapında daha popüler ve tanıdık hale gelmesine izin verdiği
+                        için büyük ölçüde belirtildi. Aynı zamanda, televizyonda Batılı izleyiciler arasında bu ana akım
+                        başarı düzeyine ulaşan ilk anime dizilerinden biri olarak kabul edilir ve oyun serisinin bu
+                        kadar popülerlik derecesine ulaşmasına izin vermesiyle tanınmaktadır. Pokémon, uluslararası
+                        televizyon pazarları için yayınlanan ve uyarlanan 1.000'den fazla bölümüyle tüm zamanların en
+                        başarılı video oyunu uyarlaması olarak kabul edilmekte ve aynı anda dünya çapında 169 ülkede
+                        yayınlanmakta ve 2016 itibariyle Netflix'te en çok izlenen şovlardan biridir.</p>
+                    <p>Aşağıda pokemon karakterlerini aratabileceğiniz bir kısım bulunmaktadır.</p>
+                    <div class="searchBox">
+                        <input id="pokemonName" type="Pokemon name" placeholder="Pokemon name" />
+                        <button id="search">🔎</button>
+                    </div>
+
+                    <div class="pokemonBox"></div>
+
+                </div>
+            </div>
+        </section>
+        <br>
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="col-md-7 col-lg-8">
+                        <p>Copyright © 2022. All Rights Reserved by:
+                            <a href="file:///C:/Users/aybuk/OneDrive/Masa%C3%BCst%C3%BC/odev_dokuman%C4%B1/hakk%C4%B1mda1.html"
+                                style="text-decoration: none;">
+                                <strong style="color:#CAF0F8">Aybüke Berfin Süer</strong></a>
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <ul id="social-links">
+                            <li><a href="https://www.linkedin.com/in/ayb%C3%BCke-berfin-s%C3%BCer-82b212233/?trk=public_profile_browsemap&originalSubdomain=tr"
+                                    class="fab fa-linkedin"></a></li>
+                            <li><a href="https://www.instagram.com/aybukeberfinsuer/?hl=tr"
+                                    class="fab fa-instagram"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+    <a href="#body" id="backtotop">
+        <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+    <script>
+        function displayMenu() {
+            var link = document.getElementById("main-nav");
+            link.classList.toggle("responsive");
+        }
+    </script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script type="text/javascript" src="slider.js"></script>
+    <script src="ilgi_alanlarim.js"></script>
+
+</body>
+
+</html>
